@@ -22,7 +22,7 @@ def extract_features(span):
         int(text.endswith(('.', '?', '!')))
     ]
 
-# ---------- heuristic heading check, returns bool + reason ----------
+# ---------- heuristic heading check, returns bool + reason ---------
 
 def heuristic_heading(text, prev_blank, next_blank, fs, max_fs):
     reasons = []
