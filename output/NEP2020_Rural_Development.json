@@ -1,0 +1,481 @@
+{
+  "title": "",
+  "outline": [
+    {
+      "level": "H4",
+      "text": "The New Education Policy (NEP) 2020, introduced by the Government of India, is a visionary reform",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "aimed at transforming India's education system.",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "This policy addresses the diverse needs of Indian states and regions, ensuring inclusivity,",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "accessibility, and relevance for all. By emphasizing foundational",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "learning, skill development, and sustainable practices, NEP 2020 seeks to bridge gaps in rural",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "education, foster community empowerment, and contribute",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "to national growth. This document explores how NEP 2020 drives rural development, promotes",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "sustainable growth, and empowers communities across India.",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H2",
+      "text": "1. Promoting Rural Development",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "The NEP 2020 takes a transformative approach to ensure quality education for rural areas,",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "addressing long-standing issues such as accessibility,",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "infrastructure, and skill development. Key contributions include:",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "trailing colon; center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- **Access to Quality Education:**",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "NEP emphasizes universal access by establishing schools in underserved areas and using local",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "languages as the medium of instruction.",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "This reduces dropout rates and enhances learning outcomes among rural students.",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- **Skill Development for Local Economies:**",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "By introducing vocational education from Class 6, NEP equips rural students with skills relevant to",
+      "page": 1,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- **Infrastructure Development:**",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Digital initiatives like DIKSHA and SWAYAM provide rural students with e-learning resources,",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "bridging the digital divide.",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Physical infrastructure is also being enhanced through smart classrooms and better-equipped",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "schools.",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Teacher Training and Retention:**",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "NEP focuses on teacher training and recruitment for rural schools, ensuring better quality",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "education and community engagement.",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "2. Driving Sustainable Growth",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "NEP 2020 integrates sustainability into education to create environmentally conscious citizens. The",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H2",
+      "text": "policy's contributions include:",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "trailing colon"
+    },
+    {
+      "level": "H3",
+      "text": "- **Eco-Friendly Curriculum:**",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Environmental education is integrated into the curriculum to teach sustainability and conservation",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "practices from an early age.",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Skill Development in Green Sectors:**",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Promotes vocational training in renewable energy, organic farming, and sustainable technologies,",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "contributing to India's environmental goals.",
+      "page": 2,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Research and Innovation:**",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Supports research on climate-resilient technologies and green energy, fostering innovation for",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "sustainable growth.",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "3. Empowering Communities",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "The NEP 2020 emphasizes inclusivity and equity to ensure that education reaches every segment",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H2",
+      "text": "of society. Key initiatives include:",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "trailing colon"
+    },
+    {
+      "level": "H3",
+      "text": "- **Inclusive Education:**",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Special provisions for SC/ST communities, girls, and differently-abled individuals ensure equitable",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "access to education.",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Skill-Based Empowerment:**",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "NEP promotes skill-based learning, enabling individuals to contribute to local economies and",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "reducing dependency on urban migration.",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Gender Equity:**",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "Gender inclusion funds and awareness campaigns foster education for girls, promoting equality",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "and empowerment.",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H3",
+      "text": "- **Community Engagement:**",
+      "page": 3,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H2",
+      "text": "4. Implementation Across States and Regions",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "NEP 2020's flexibility allows states to adapt its guidelines to local needs, addressing regional",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H2",
+      "text": "disparities effectively. Examples include:",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "trailing colon"
+    },
+    {
+      "level": "H3",
+      "text": "- **Kerala:** Focus on digital learning for tribal areas and gender-inclusive policies.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- **Rajasthan:** Integration of local crafts and desert ecology in vocational training.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- **Northeast India:** Preservation of regional languages and culture through tailored curriculums.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "By tailoring solutions to unique regional challenges, NEP ensures inclusive growth and equitable",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "development.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "5. Advantages and Conclusion",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "The NEP 2020 is a forward-looking policy that bridges rural-urban divides, promotes sustainable",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "practices, and empowers communities through education.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "center aligned"
+    },
+    {
+      "level": "H2",
+      "text": "Key advantages include:",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "trailing colon"
+    },
+    {
+      "level": "H3",
+      "text": "- Holistic learning that fosters creativity and innovation.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H3",
+      "text": "- Vocational training that addresses unemployment and boosts local industries.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- Environmental education that aligns with global sustainability goals.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H3",
+      "text": "- Inclusivity and equity that strengthen community bonds.",
+      "page": 4,
+      "font_size": 12.0,
+      "reason": "bullet/bold prefix; center aligned"
+    },
+    {
+      "level": "H4",
+      "text": "self-reliant and progressive society.",
+      "page": 5,
+      "font_size": 12.0,
+      "reason": "ML classifier positive"
+    }
+  ]
+}
