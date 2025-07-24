@@ -2,11 +2,25 @@
   "title": "untitled",
   "outline": [
     {
+      "level": "H1",
+      "text": "TEST H1 Heading",
+      "page": 1,
+      "font_size": 20.0,
+      "reason": "surrounded by blank line; large font 20.0"
+    },
+    {
+      "level": "H3",
+      "text": "Test H2 Subheading",
+      "page": 1,
+      "font_size": 16.0,
+      "reason": "surrounded by blank line"
+    },
+    {
       "level": "H4",
       "text": "This is body text for testing.",
       "page": 1,
       "font_size": 12.0,
-      "reason": "ML classifier positive"
+      "reason": "surrounded by blank line"
     }
   ]
 }
