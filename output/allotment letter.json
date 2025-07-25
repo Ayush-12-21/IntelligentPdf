@@ -1,0 +1,544 @@
+{
+  "title": "",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Central Seat Allocation Board 2023",
+      "page": 1,
+      "font_size": 10.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "NITs, IIEST, IIITs, SPAs, and Other-GFTIs for the Academic Year 2023-24",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "Initial Seat Allotment Intimation Slip",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "Personal Details",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "JEE(Main) Application No.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "230310355009",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "Candidate's Name",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "AYUSH KUMAR",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Date of Birth",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "17-07-2004",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "Gender",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "MALE",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "State of Eligibility",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "UTTAR PRADESH",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Category",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "SC",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Person with Disability (PwD)",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "NO",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Nationality",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "INDIAN",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Rank(s)",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Rank List",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "JEE(Main) B.E./B. Tech.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "JEE(Main) B.Arch.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "JEE(Main) B.Planning",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "CRL Rank",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "36282",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H3",
+      "text": "--",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "bullet/bold prefix"
+    },
+    {
+      "level": "H4",
+      "text": "SC Rank",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "1112",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "Allotment Details",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Round No.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Special Round I",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Choice No.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "6",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "Institute",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "INDIAN INSTITUTE OF",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "INFORMATION TECHNOLOGY,",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "ALLAHABAD",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "Academic Program",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "INFORMATION TECHNOLOGY (4",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "YEARS, BACHELOR OF",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "TECHNOLOGY)",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Allotted Category",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Allotted Quota",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "All India",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Allotted Gender",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "GENDER-NEUTRAL",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Allotted based on",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "JEE(MAIN) (B.E./B TECH.)",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Rank used for Allotment",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Dear Candidate,",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "Based on your rank, choices of programs, you have been provisionally allotted a seat in the academic program and Institute shown above.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "1. Choice Upgraded.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H2",
+      "text": "2. Document verification status: Completed.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H2",
+      "text": "3. You may submit your willingness (FLOAT/SLIDE/FREEZE). In case you do not exercise willingness option, the default willingness option (FLOAT) will be",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "considered for Special Round-II seat allocation.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "4. Visit CSAB web site (https://csab.nic.in) for updates, if any.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "Should you prefer to REJECT the allotted seat and wish to participate in Special Round-II, you may choose willingness as SURRENDER. In such a case,",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "the seat allotted in JoSAA-2023 or CSAB-2023 Special Round-I will be cancelled. Allotment in Special Round-II will be considered from the choices higher",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "than the surrendered seat.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Should you prefer to REJECT the allotted seat and DO NOT wish to participate in Special Round-II, you may choose willingness as WITHDRAW. In such a",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "case, the seat allotted in JoSAA-2023 or CSAB-2023 Special Round-I will be cancelled, and no new allotment will be made in Special Round-II.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "Important Instructions:.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H2",
+      "text": "1. Forged Documents: At the time of admission, if any of the uploaded documents is found to be forged or fake, then the allocated seat and the candidature",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "will be canceled.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "2. Original Document Verification: The final confirmation pertaining to your admission is subject to production of valid and original eligibility documents and",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "their physical verification at the admitting institute. At any stage, if any of the documents is found to be invalid, the allotted seat and your candidature will be",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "cancelled.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "3. PwD Status Verification: Seat allocation to PwD candidates will remain provisional until a duly constituted Medical Board appropriately examines their",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "PwD status at the Admitting Institute. The Medical Board at the Admitting Institute will assess the veracity of the candidate's PwD status after the physical",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "examination of the candidate as per the guidelines given in the Gazette notification GSR 591(E); dt: 15.07.2017.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H2",
+      "text": "4. Seat Upgradation: If you accept the allocated seat with FLOAT or SLIDE option, and if you are allotted a different seat in Special Round-II, then your",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "numbered pattern"
+    },
+    {
+      "level": "H4",
+      "text": "current offered/accepted seat will automatically be forfeited.",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "Generated On: August 08, 2023 9:19 PM",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "ML classifier positive"
+    },
+    {
+      "level": "H4",
+      "text": "(Computer generated letter.)",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    },
+    {
+      "level": "H4",
+      "text": "CSAB 2023",
+      "page": 1,
+      "font_size": 8.0,
+      "reason": "surrounded by blank line"
+    }
+  ]
+}
