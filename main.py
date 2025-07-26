@@ -1,85 +1,114 @@
-import os
+import fitz  # PyMuPDF
 import json
-import re
-import pickle
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
+import os
+import sys
+from collections import defaultdict
+from pathlib import Path
 
-# Feature extraction for a candidate line
-# Assumes each span dict has: 'text', 'page', 'font_size', 'font'
-def extract_features(span):
-    text = span.get("text", "")
-    fs = span.get("font_size", 0)
-    # Boldness: True if font name contains 'Bold'
-    fonts = span.get("font", [])
-    is_bold = int(any("Bold" in f for f in fonts))
-    # Numbered: starts with digit or digit-dot
-    is_numbered = int(bool(re.match(r'^\d+(?:\.\d+)*\b', text)))
-    # Colon at end
-    is_colon = int(text.endswith(':'))
-    # Word count
-    words = text.split()
-    word_count = len(words)
-    # Stopword ratio
-    stops = {"and","the","of","in","to","for","with","on","by","at","from"}
-    stop_ratio = sum(1 for w in words if w.lower() in stops) / max(1, word_count)
-    # Starts uppercase/digit
-    starts_upper = int(bool(re.match(r'^[A-Z0-9]', text)))
-    # Ends punctuation
-    ends_punct = int(text.endswith(('.', '?', '!')))
-    return [fs, is_bold, is_numbered, is_colon,
-            word_count, stop_ratio, starts_upper, ends_punct]
+def is_heading_candidate(span):
+    text = span.get("text", "").strip()
+    if not text or len(text) < 2:
+        return False
+    if all(c in "-–—•. " for c in text):  # bullets or lines
+        return False
+    if any(char.isalpha() for char in text):  # must contain letters
+        return True
+    return False
 
+def extract_heading_spans(page, min_font_size=10):
+    heading_spans = []
+    blocks = page.get_text("dict")["blocks"]
+
+    for block in blocks:
+        for line in block.get("lines", []):
+            for span in line.get("spans", []):
+                text = span.get("text", "").strip()
+                if not is_heading_candidate(span):
+                    continue
+
+                font_size = span.get("size", 0)
+                font = span.get("font", "")
+                flags = span.get("flags", 0)
+                bbox = span.get("bbox", [])
+                color = span.get("color", 0)
+
+                is_bold = bool(flags & 2)
+                is_caps = text.isupper()
+                left_aligned = abs(bbox[0]) < 50  # close to left edge
+
+                if font_size < min_font_size:
+                    continue
+
+                heading_spans.append({
+                    "text": text,
+                    "font_size": font_size,
+                    "font": font,
+                    "flags": flags,
+                    "bbox": bbox,
+                    "color": color,
+                    "is_bold": is_bold,
+                    "is_caps": is_caps,
+                    "left_aligned": left_aligned,
+                    "y": bbox[1],
+                })
+    return heading_spans
+
+def assign_levels(spans):
+    unique_sizes = sorted({s["font_size"] for s in spans}, reverse=True)
+    size_to_level = {sz: i + 1 for i, sz in enumerate(unique_sizes)}
+    for s in spans:
+        s["level"] = size_to_level[s["font_size"]]
+    return spans
+
+def group_by_page(doc):
+    headings_by_page = []
+    for i, page in enumerate(doc):
+        spans = extract_heading_spans(page)
+        spans = assign_levels(spans)
+        for s in spans:
+            s["page"] = i + 1
+        headings_by_page.extend(spans)
+    return headings_by_page
+
+def generate_json_structure(headings):
+    # Sort by page and y-position to maintain logical order
+    headings.sort(key=lambda x: (x["page"], x["y"]))
+
+    output = []
+    for h in headings:
+        output.append({
+            "text": h["text"],
+            "level": h["level"],
+            "page": h["page"],
+            "font_size": h["font_size"],
+            "bold": h["is_bold"],
+            "caps": h["is_caps"],
+        })
+    return output
+
+def save_to_json(data, output_path):
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def extract_headings_from_pdf(pdf_path, json_output="headings_output.json"):
+    if not os.path.exists(pdf_path):
+        print(f"Error: PDF not found: {pdf_path}")
+        return
+
+    doc = fitz.open(pdf_path)
+    headings = group_by_page(doc)
+    structured = generate_json_structure(headings)
+    save_to_json(structured, json_output)
+    print(f"[✓] Headings extracted and saved to: {json_output}")
+
+# ---------- Run this part ----------
 if __name__ == "__main__":
-    JSON_FOLDER = 'output'
-    LABEL_CSV = 'labels.csv'  # Create this with columns: file,page,text,label
+    # Example usage:
+    # python extract_headings.py input.pdf
+    if len(sys.argv) != 2:
+        print("Usage: python extract_headings.py <input_pdf>")
+        sys.exit(1)
+    pdf_path = sys.argv[1]
+    output_json = Path(pdf_path).stem + "_headings.json"
+    extract_headings_from_pdf(pdf_path, output_json)
 
-    # Read labeled data
-    df_labels = pd.read_csv(LABEL_CSV)
-
-    feature_rows = []
-    label_rows = []
-    # Iterate labels
-    for _, row in df_labels.iterrows():
-        pdf_file = row['file']
-        page_num = int(row['page'])
-        text     = row['text']
-        label    = int(row['label'])
-        json_path = os.path.join(JSON_FOLDER, os.path.basename(pdf_file).replace('.pdf','.json'))
-        if not os.path.exists(json_path):
-            continue
-        data = json.load(open(json_path))
-        for span in data.get('outline', []):
-            if span.get('page') == page_num and span.get('text') == text:
-                # ensure 'font' key present
-                span.setdefault('font', [])
-                feat = extract_features(span)
-                feature_rows.append(feat)
-                label_rows.append(label)
-                break
-
-    # Build DataFrame
-    cols = ['font_size','is_bold','is_numbered','is_colon',
-            'word_count','stop_ratio','starts_upper','ends_punct']
-    df = pd.DataFrame(feature_rows, columns=cols)
-    df['label'] = label_rows
-
-    # Train/test split
-    X = df[cols]
-    y = df['label']
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-    # Train classifier
-    clf = RandomForestClassifier(n_estimators=100, random_state=42)
-    clf.fit(X_train, y_train)
-
-    # Evaluate
-    y_pred = clf.predict(X_test)
-    print(classification_report(y_test, y_pred))
-
-    # Save model
-    with open('heading_model.pkl', 'wb') as f:
-        pickle.dump(clf, f)
-    print("Model trained and saved to heading_model.pkl")
